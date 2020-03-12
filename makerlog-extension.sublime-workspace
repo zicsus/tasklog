@@ -1,0 +1,1813 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"getCLine",
+				"getBoundingClientRect\tmethod"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"currentEl",
+				"currentlyEditing\tlet"
+			],
+			[
+				"class",
+				"classList\twarning"
+			],
+			[
+				"remove",
+				"removeEditable\tlocal function"
+			],
+			[
+				"pre",
+				"preventDefault\twarning"
+			],
+			[
+				"is_i",
+				"is_inspect\twarning"
+			],
+			[
+				"style",
+				"styles\twarning"
+			],
+			[
+				"over",
+				"overflow\tproperty"
+			],
+			[
+				"tran",
+				"transition\tproperty"
+			],
+			[
+				"trans",
+				"transition\tproperty"
+			],
+			[
+				"scree",
+				"screenshots\tlet"
+			],
+			[
+				"decode",
+				"decodedData\tvar"
+			],
+			[
+				"transo",
+				"transform\tproperty"
+			],
+			[
+				"getFile",
+				"getFilename\tlocal function"
+			],
+			[
+				"getD",
+				"getDay\tmethod"
+			],
+			[
+				"margin-",
+				"margin-top\tproperty"
+			],
+			[
+				"tabI",
+				"tabIds\tconst"
+			],
+			[
+				"inspe",
+				"inspect\tlet"
+			],
+			[
+				"inspect",
+				"inspectorStyling\tlocal function"
+			],
+			[
+				"condition",
+				"conditionArr\tlet"
+			],
+			[
+				"topLeft",
+				"topLeftX\tconst"
+			],
+			[
+				"top",
+				"topLeftY\tconst"
+			],
+			[
+				"bottomL",
+				"bottomLeftY\tconst"
+			],
+			[
+				"bottomLe",
+				"bottomLeftY\tconst"
+			],
+			[
+				"attr",
+				"attr\twarning"
+			],
+			[
+				"scro",
+				"scrollY\tproperty"
+			],
+			[
+				"inner",
+				"innerHeight\tproperty"
+			],
+			[
+				"bo",
+				"boundingBox\tconst"
+			],
+			[
+				"getColor",
+				"getColorsFromString\tlocal function"
+			],
+			[
+				"back",
+				"backgroundColors\tconst"
+			],
+			[
+				"border",
+				"borderColor\tlet"
+			],
+			[
+				"color",
+				"colors\tconst"
+			],
+			[
+				"defau",
+				"defaultValue\tconst"
+			],
+			[
+				"aling",
+				"align-items\tproperty"
+			],
+			[
+				"high",
+				"highlightedValue\tlet"
+			],
+			[
+				"start",
+				"startsWithFromArray\tlocal function"
+			],
+			[
+				"isF",
+				"isFunction\tlet"
+			],
+			[
+				"onChange",
+				"onStyleChange\tlocal function"
+			],
+			[
+				"stick",
+				"sticky\tconst"
+			],
+			[
+				"CSS",
+				"CSSKeyframesRule\tvar"
+			],
+			[
+				"getProper",
+				"getPropertyValue\tmethod"
+			],
+			[
+				"filter",
+				"filteredStyles\tlet"
+			],
+			[
+				"attri",
+				"attribValue\tlet"
+			],
+			[
+				"current",
+				"currentStyling\tlet"
+			],
+			[
+				"clas",
+				"classList\twarning"
+			],
+			[
+				"mouseO",
+				"mouseover\twarning"
+			],
+			[
+				"hover",
+				"hoveredProperty\tconst"
+			],
+			[
+				"compute",
+				"computedHoverStyles\tconst"
+			],
+			[
+				"window",
+				"windowHeight\tconst"
+			],
+			[
+				"widn",
+				"windowHeight\tconst"
+			],
+			[
+				"innertH",
+				"innerHeight\tproperty"
+			],
+			[
+				"isMargin",
+				"isMarginLeft\tlet"
+			],
+			[
+				"name",
+				"tagName\twarning"
+			],
+			[
+				"attrib",
+				"attributes\twarning"
+			],
+			[
+				"mouse",
+				"mouseover\twarning"
+			],
+			[
+				"align-",
+				"align-items\tproperty"
+			],
+			[
+				"text-",
+				"text-align\tproperty"
+			],
+			[
+				"dis",
+				"display\tconst"
+			],
+			[
+				"moving",
+				"movingOffsetY\twarning"
+			],
+			[
+				"mergeDi",
+				"mergeDirs\tconst"
+			],
+			[
+				"merge",
+				"mergeDir\twarning"
+			],
+			[
+				"onKe",
+				"onkeypress\tproperty"
+			],
+			[
+				"att",
+				"attributes\twarning"
+			],
+			[
+				"grid",
+				"grid_btn\tconst"
+			],
+			[
+				"to",
+				"toggle\twarning"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"pla",
+				"playVideo\tproperty"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"marign",
+				"margin-right"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"onPla",
+				"onPlayerStateChange\twarning"
+			],
+			[
+				"page",
+				"pageX\twarning"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"enab",
+				"enabled\twarning"
+			],
+			[
+				"append",
+				"appendChild\tmethod"
+			],
+			[
+				"tabs",
+				"tabsArr\tparameter"
+			],
+			[
+				"tab",
+				"tab_id\twarning"
+			],
+			[
+				"min-",
+				"min-width\tproperty"
+			],
+			[
+				"rot",
+				"rotate()\ttransform"
+			],
+			[
+				"textCont",
+				"textContent\twarning"
+			],
+			[
+				"selector",
+				"selectors\tparameter"
+			],
+			[
+				"enable",
+				"enabled\tproperty"
+			],
+			[
+				"create",
+				"createStickyCSSBox\tconst"
+			],
+			[
+				"update",
+				"updateCssBox\tconst"
+			],
+			[
+				"pa",
+				"paused\tproperty"
+			],
+			[
+				"css",
+				"css_box\tproperty"
+			],
+			[
+				"Screen",
+				"Screenshot\tconst"
+			],
+			[
+				"fi",
+				"fixed_elements\tproperty"
+			],
+			[
+				"orig",
+				"original_params\tparameter"
+			],
+			[
+				"is",
+				"is_text\twarning"
+			],
+			[
+				"st",
+				"stickies\tproperty"
+			],
+			[
+				"curre",
+				"current\tproperty"
+			],
+			[
+				"close",
+				"close_btn\tconst"
+			],
+			[
+				"stic",
+				"sticky\tconst"
+			],
+			[
+				"acit",
+				"active_tabs\tconst"
+			],
+			[
+				"ndoe",
+				"nodeId\twarning"
+			],
+			[
+				"documen",
+				"document_id\tparameter"
+			],
+			[
+				"send",
+				"sendCommand\twarning"
+			],
+			[
+				"tabid",
+				"tab_id\tlocal var"
+			],
+			[
+				"attach",
+				"attachedTabs\tconst"
+			],
+			[
+				"border-bot",
+				"border-bottom-left-radius\tproperty"
+			],
+			[
+				"option",
+				"option_style\tconst"
+			],
+			[
+				"scroll",
+				"scrollY\tproperty"
+			],
+			[
+				"Pla",
+				"PLAYING\tproperty"
+			],
+			[
+				"overf",
+				"overflow-y\tproperty"
+			],
+			[
+				"hoveri",
+				"hoverify-tools"
+			],
+			[
+				"getS",
+				"getRuleStyles\tconst"
+			],
+			[
+				"default",
+				"defaultStyles\tconst"
+			],
+			[
+				"proper",
+				"property\tparameter"
+			],
+			[
+				"propert",
+				"property\tconst"
+			],
+			[
+				"prop",
+				"property\tconst"
+			],
+			[
+				"forma",
+				"formattedStyles\tconst"
+			],
+			[
+				"prpe",
+				"property"
+			],
+			[
+				"inline",
+				"inline-block\tdisplay"
+			],
+			[
+				"pag",
+				"pageY\twarning"
+			],
+			[
+				"min",
+				"min-width\tproperty"
+			],
+			[
+				"Waka",
+				"WakatimeController\talias"
+			],
+			[
+				"expire",
+				"expires_in\twarning"
+			],
+			[
+				"auth",
+				"authorizeUrl\tlet"
+			],
+			[
+				"OA",
+				"OAuth2Provider\tscript"
+			],
+			[
+				"impor",
+				"important"
+			],
+			[
+				"co",
+				"contributors\tdirectory"
+			],
+			[
+				"pu",
+				"publishBtnText\twarning"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/manifest.json",
+			"settings":
+			{
+				"buffer_size": 690,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/background/bg.js",
+			"settings":
+			{
+				"buffer_size": 421,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/background/manager.js",
+			"settings":
+			{
+				"buffer_size": 334,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/popup/popup.html",
+			"settings":
+			{
+				"buffer_size": 153,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/popup/popup.js",
+			"settings":
+			{
+				"buffer_size": 425,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/auth/auth.html",
+			"settings":
+			{
+				"buffer_size": 1267,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/auth/auth.js",
+			"settings":
+			{
+				"buffer_size": 14,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/css/base.css",
+			"settings":
+			{
+				"buffer_size": 2126,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/G/hoverify/hoverify/src/license/license.html",
+			"settings":
+			{
+				"buffer_size": 4220,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"react",
+				"Set Syntax: TypeScriptReact"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"ayu",
+				"ayu: Activate theme"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"sc",
+				"Set Syntax: SCSS"
+			],
+			[
+				"reac",
+				"Set Syntax: TypeScriptReact"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"raect",
+				"Set Syntax: TypeScriptReact"
+			],
+			[
+				"rea",
+				"Set Syntax: TypeScriptReact"
+			],
+			[
+				"rect",
+				"Rot13 Selection"
+			],
+			[
+				"areact",
+				"Set Syntax: TypeScriptReact"
+			],
+			[
+				"reactr",
+				"TypeScript: Refactor"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"REACT",
+				"Set Syntax: TypeScriptReact"
+			],
+			[
+				"rac",
+				"Package Control: Add Channel"
+			],
+			[
+				"re",
+				"Set Syntax: TypeScriptReact"
+			],
+			[
+				"",
+				"Bookmarks: Select Previous"
+			],
+			[
+				"REAC",
+				"Set Syntax: TypeScriptReact"
+			],
+			[
+				"reacgt",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"set ",
+				"Set Syntax: TypeScriptReact"
+			],
+			[
+				"set syntax: rea",
+				"Set Syntax: TypeScriptReact"
+			],
+			[
+				"set s",
+				"Set Syntax: TypeScript"
+			],
+			[
+				"set syntax: reac",
+				"Set Syntax: TypeScriptReact"
+			],
+			[
+				"set syntax: scs",
+				"Set Syntax: SCSS"
+			],
+			[
+				"set syntax: type",
+				"Set Syntax: TypeScriptReact"
+			],
+			[
+				"sets syntax: reac",
+				"Set Syntax: TypeScriptReact"
+			],
+			[
+				"Package Control: Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 428.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/G/makerlog-extension",
+		"/G/makerlog-extension/src"
+	],
+	"file_history":
+	[
+		"/G/hoverify/hoverify/src/license/license.css",
+		"/G/hoverify/hoverify/src/background/manager.js",
+		"/G/makerlog-extension/src/background/manager.js",
+		"/G/hoverify/hoverify/src/popup/popup.js",
+		"/G/makerlog-extension/src/popup/popup.html",
+		"/G/hoverify/hoverify/src/background/bg.js",
+		"/G/makerlog-extension/src/background/utils.js",
+		"/G/hoverify/hoverify/src/background/utils.js",
+		"/G/makerlog-extension/index.js",
+		"/G/hoverify/hoverify/package.json",
+		"/G/makerlog-extension/build.js",
+		"/G/hoverify/hoverify/src/manifest.json",
+		"/G/makerlog-extension/package.json",
+		"/G/hoverify/hoverify/build.js",
+		"/G/makerlog-extension/build-config.json",
+		"/G/hoverify/hoverify/minify.js",
+		"/G/Nodejs/creact-comp/package.json",
+		"/G/hoverify/hoverify/src/content_scripts/edit.js",
+		"/G/hoverify/hoverify/src/content_scripts/colorpicker.js",
+		"/G/hoverify/hoverify/src/content_scripts/utils.js",
+		"/G/hoverify/hoverify/src/css/main.css",
+		"/G/hoverify/hoverify/src/content_scripts/cs.js",
+		"/C/Users/Himanshu mishra/Desktop/inspect.js",
+		"/G/Clients/Happy Pregnancy/vendor/package.json",
+		"/G/Clients/Happy Pregnancy/admin/package.json",
+		"/G/hoverify/builds/manifest.json",
+		"/G/hoverify/hoverify/build/manifest.json",
+		"/G/hoverify/hoverify/src/content_scripts/inspect.js",
+		"/G/hoverify/hoverify/src/background/bg_screenshot.js",
+		"/G/hoverify/hoverify/src/content_scripts/svg.js",
+		"/G/hoverify/hoverify/build/background/bg_colorpicker.js",
+		"/G/hoverify/hoverify/build/background/bg.js",
+		"/G/hoverify/svg/info-solid.svg",
+		"/G/hoverify/svg/info-circle-solid.svg",
+		"/G/hoverify/svg/copy-regular.svg",
+		"/G/hoverify/hoverify/build/capture/capture.js",
+		"/G/hoverify/hoverify/src/license/license.html",
+		"/G/hoverify/svg/twitter-brands.svg",
+		"/G/hoverify/svg/envelope-open-solid.svg",
+		"/G/hoverify/svg/link-solid.svg",
+		"/G/hoverify/hoverify-landing/public/index.html",
+		"/G/hoverify/hoverify/src/settings/settings.js",
+		"/G/hoverify/hoverify/src/settings/settings.html",
+		"/G/hoverify/hoverify/src/settings/settings.css",
+		"/G/hoverify/hoverify/src/license/license.js",
+		"/G/hoverify/hoverifyOld/src/background/license.js",
+		"/G/hoverify/hoverifyOld/src/license.html",
+		"/G/hoverify/hoverifyOld/src/license.js",
+		"/G/hoverify/hoverify/designs/hover_box.html",
+		"/G/hoverify/svg/clipboard-check-solid.svg",
+		"/G/hoverify/hoverifyOld/src/background/background.js",
+		"/G/hoverify/hoverify/src/capture/capture.css",
+		"/G/hoverify/hoverifyOld/src/content-scripts/hoverify.js",
+		"/G/hoverify/hoverify/src/content_scripts/screenshot.js",
+		"/G/hoverify/hoverifyOld/src/content-scripts/state.js",
+		"/G/hoverify/hoverify/src/css/hide_scrollbar.css",
+		"/G/hoverify/hoverifyOld/src/background/screenshot.js",
+		"/G/hoverify/hoverifyOld/src/content-scripts/screenshot.js",
+		"/G/hoverify/hoverify/src/popup/popup.css",
+		"/G/hoverify/hoverifyOld/src/capture.js",
+		"/G/hoverify/hoverify/src/capture/capture.html",
+		"/G/hoverify/hoverify/src/capture/capture.js",
+		"/G/hoverify/hoverifyOld/src/content-scripts/color_picker.js",
+		"/G/hoverify/hoverify/src/background/bg_colorpicker.js",
+		"/G/hoverify/hoverifyOld/src/content-scripts/hoverify.css",
+		"/G/hoverify/hoverifyOld/src/background/color_picker.js",
+		"/G/hoverify/svg/pencil-alt-solid.svg",
+		"/G/hoverify/hoverify/src/background/bg_inspect.js",
+		"/G/hoverify/hoverify/src/popup/popup.html",
+		"/G/hoverify/hoverify/src/settings/Settings.css",
+		"/G/hoverify/hoverify/src/settings/Settings.html",
+		"/G/hoverify/svg/gear.svg",
+		"/G/hoverify/hoverifyOld/src/content-scripts/inspect.js",
+		"/G/hoverify/hoverifyOld/src/background/inspect.js",
+		"/G/hoverify/hoverify/src/content_scripts/parser.js",
+		"/G/hoverify/svg/toolbar",
+		"/G/hoverify/svg/grip-lines-vertical-solid.svg",
+		"/G/hoverify/svg/grip-lines-solid.svg",
+		"/G/hoverify/svg/border-all-solid.svg",
+		"/G/hoverify/svg/palette-solid.svg",
+		"/G/hoverify/hoverify/src/content_scripts/fonts.js",
+		"/G/hoverify/svg/font-solid.svg",
+		"/G/hoverify/hoverifyOld/src/content-scripts/fonts.js",
+		"/G/Clients/Happy Pregnancy/backend/api/Router.js",
+		"/G/hoverify/test.js",
+		"/C/Users/Himanshu mishra/Downloads/Mr.Robot.S04E08.408.Request.Timeout.1080p.AMZN.WEBRip.DDP5.1.x264-BTN[rartv]-[rarbg.to].torrent",
+		"/G/Clients/Happy Pregnancy/backend/api/controllers/forum/NewPost.js",
+		"/G/hoverify/svg/eye.svg",
+		"/G/hoverify/svg/play.svg",
+		"/G/hoverify/svg/chevron-down-solid.svg",
+		"/G/hoverify/svg/pause.svg",
+		"/G/hoverify/svg/cancel.svg",
+		"/G/hoverify/svg/times-solid.svg",
+		"/G/hoverify/hoverifyOld/src/popups/main.js",
+		"/G/hoverify/hoverify/build/popup/popup.css",
+		"/G/hoverify/hoverify/watch.js",
+		"/G/hoverify/hoverify/build-config.json",
+		"/G/hoverify/hoverify/build/background/background.js",
+		"/G/hoverify/hoverify/build/background/manager.js",
+		"/G/hoverify/hoverify/src/content_scripts/contentScript.js",
+		"/G/hoverify/hoverify/build/content_scripts/contentScript.js",
+		"/G/hoverify/hoverify/build/background/utils.js",
+		"/G/hoverify/svg/eyedropper.svg",
+		"/G/hoverify/svg/crop.svg",
+		"/G/hoverify/hoverifyOld/src/manifest.json",
+		"/G/hoverify/hoverify/src/content-scripts/state.js",
+		"/G/hoverify/hoverify/src/content-scripts/inspect.js",
+		"/G/hoverify/hoverify/src/content-scripts/index.js",
+		"/G/hoverify/hoverify/src/content-scripts/hoverify.js",
+		"/G/hoverify/hoverify/src/content-scripts/color_picker.js",
+		"/G/hoverify/hoverify/src/content-scripts/fonts.js",
+		"/C/Users/Himanshu mishra/Downloads/20033585401553667173.svg",
+		"/G/hoverify/hoverify/src/content-scripts/utils.js",
+		"/G/hoverify/hoverify/src/license.js",
+		"/G/hoverify/hoverify/src/content-scripts/hoverify.css",
+		"/G/hoverify/hoverify/src/background/license.js",
+		"/G/hoverify/hoverify/src/css/icons.css",
+		"/G/hoverify/hoverify/build/content-scripts/fonts.js",
+		"/G/hoverify/hoverify/build/content-scripts/inspect.js",
+		"/G/hoverify/hoverify/build/capture.js",
+		"/G/hoverify/hoverify/build/popups/main.js",
+		"/G/hoverify/hoverify/build/content-scripts/screenshot.js",
+		"/G/hoverify/hoverify/build/license.js",
+		"/C/Users/Himanshu mishra/Desktop/New Microsoft Word Document.docx",
+		"/G/hoverify/hoverify/node_modules/chance/test/test.address.js",
+		"/G/hoverify/hoverify/node_modules/babel-runtime/helpers/slicedToArrayLoose.js",
+		"/G/hoverify/hoverify/src/license.html",
+		"/G/hoverify/hoverify/src/css/fontello.css"
+	],
+	"find":
+	{
+		"height": 54.0
+	},
+	"find_in_files":
+	{
+		"height": 199.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"sendMessage",
+			"setMessage"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/manifest.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 690,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								432,
+								432
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 152.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/background/bg.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 421,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								326,
+								326
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 57.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/background/manager.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 334,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								271,
+								271
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/popup/popup.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								67,
+								67
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/popup/popup.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 425,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								304,
+								304
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/auth/auth.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1267,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								176,
+								176
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/auth/auth.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14,
+								14
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/css/base.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2126,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								130,
+								130
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/G/hoverify/hoverify/src/license/license.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4220,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								568,
+								432
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 114.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 69.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 69.0
+	},
+	"pinned_build_system": "",
+	"project": "makerlog-extension.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"main.css",
+				"src\\css\\main.css"
+			],
+			[
+				"utils",
+				"src\\content_scripts\\utils.js"
+			],
+			[
+				"popup.js",
+				"src\\popup\\popup.js"
+			],
+			[
+				"inspect.js",
+				"src\\content_scripts\\inspect.js"
+			],
+			[
+				"manager",
+				"src\\background\\manager.js"
+			],
+			[
+				"Mana",
+				"src\\background\\manager.js"
+			],
+			[
+				"mana",
+				"src\\background\\manager.js"
+			],
+			[
+				"pop",
+				"src\\popup\\popup.js"
+			],
+			[
+				"popup.cs",
+				"src\\popup\\popup.css"
+			],
+			[
+				"popup.css",
+				"build\\popup\\popup.css"
+			],
+			[
+				"bg.js",
+				"build\\background\\bg.js"
+			],
+			[
+				"watch",
+				"watch.js"
+			],
+			[
+				"watch.js",
+				"watch.js"
+			],
+			[
+				"build.js",
+				"build.js"
+			],
+			[
+				"manifest.jso",
+				"src\\manifest.json"
+			],
+			[
+				"license.js",
+				"src\\license.js"
+			],
+			[
+				"color_picker",
+				"src\\content-scripts\\color_picker.js"
+			],
+			[
+				"fonts.js",
+				"src\\content-scripts\\fonts.js"
+			],
+			[
+				"hoverify.js",
+				"src\\content-scripts\\hoverify.js"
+			],
+			[
+				"Inspect.",
+				"src\\content-scripts\\inspect.js"
+			],
+			[
+				"color",
+				"src\\content-scripts\\color_picker.js"
+			],
+			[
+				"hoverify.css",
+				"src\\content-scripts\\hoverify.css"
+			],
+			[
+				"style.js",
+				"node_modules\\babel-runtime\\helpers\\slicedToArrayLoose.js"
+			],
+			[
+				"screenshot",
+				"background\\screenshot.js"
+			],
+			[
+				"background",
+				"background\\background.js"
+			],
+			[
+				"ColorP",
+				"background\\color_picker.js"
+			],
+			[
+				"ColorPicker",
+				"content-scripts\\color_picker.js"
+			],
+			[
+				"Utils",
+				"content-scripts\\utils.js"
+			],
+			[
+				"hoverify",
+				"content-scripts\\hoverify.js"
+			],
+			[
+				"inpect.js",
+				"content-scripts\\inspect.js"
+			],
+			[
+				"Header.js",
+				"src\\components\\header\\Header.js"
+			],
+			[
+				"hoverif",
+				"content-scripts\\hoverify.js"
+			],
+			[
+				"hoveri",
+				"content-scripts\\hoverify.js"
+			],
+			[
+				"capture.js",
+				"capture.js"
+			],
+			[
+				"index.css",
+				"css\\index.css"
+			],
+			[
+				"TokenMan",
+				"makerdash\\src\\utils\\TokenManager.js"
+			],
+			[
+				"WakatimeContro",
+				"makerdash\\src\\pages\\wakatime\\controller\\WakatimeController.js"
+			],
+			[
+				"WakatimeP",
+				"makerdash\\src\\pages\\wakatime\\context\\WakatimeProvider.js"
+			],
+			[
+				"Sidebar.sc",
+				"makerdash\\src\\components\\sidebar\\Sidebar.scss"
+			],
+			[
+				"Sidebar.js",
+				"makerdash\\src\\components\\sidebar\\Sidebar.js"
+			],
+			[
+				"YoutubePage",
+				"makerdash\\src\\pages\\youtube\\YoutubePage.scss"
+			],
+			[
+				"MakerlogAp",
+				"makerdash\\src\\controllers\\makerlog\\MakerlogApi.js"
+			],
+			[
+				"Day.js",
+				"makerdash\\src\\utils\\Day.js"
+			],
+			[
+				"YoutubeLo",
+				"makerdash\\src\\pages\\youtube\\login\\YoutubeLogin.js"
+			],
+			[
+				"YoutubePro",
+				"makerdash\\src\\pages\\youtube\\context\\YoutubeProvider.js"
+			],
+			[
+				"NewFib",
+				"fibhub-backend\\api\\controllers\\fib\\NewFib.js"
+			],
+			[
+				"Editor.js",
+				"fibhub-webapp\\src\\components\\editor\\Editor.js"
+			],
+			[
+				"NewFib.js",
+				"fibhub-backend\\api\\controllers\\fib\\NewFib.js"
+			],
+			[
+				"StoryRead.scss",
+				"fibhub-webapp\\src\\pages\\story\\StoryRead.scss"
+			],
+			[
+				"StoryRead.js",
+				"fibhub-webapp\\src\\pages\\story\\StoryRead.js"
+			],
+			[
+				"Story.js",
+				"fibhub-webapp\\src\\pages\\story\\Story.js"
+			],
+			[
+				"Story.scss",
+				"fibhub-webapp\\src\\pages\\story\\Story.scss"
+			],
+			[
+				"StorySe",
+				"fibhub-webapp\\src\\pages\\story\\StorySettings.scss"
+			],
+			[
+				"NewStoryRoute",
+				"fibhub-webapp\\src\\server\\routes\\NewStoryRoute.js"
+			],
+			[
+				"NewStory.js",
+				"fibhub-backend\\api\\controllers\\story\\NewStory.js"
+			],
+			[
+				"Story.sc",
+				"fibhub-webapp\\src\\components\\feed\\Story.scss"
+			],
+			[
+				"New.js",
+				"fibhub-webapp\\src\\pages\\new\\New.js"
+			],
+			[
+				"Select.scs",
+				"fibhub-webapp\\src\\components\\select\\Select.scss"
+			],
+			[
+				"Select.js",
+				"fibhub-webapp\\src\\components\\select\\Select.js"
+			],
+			[
+				"EditText",
+				"fibhub-webapp\\src\\components\\edittext\\EditText.js"
+			],
+			[
+				"Story",
+				"fibhub-backend\\api\\controllers\\story\\Story.js"
+			],
+			[
+				"Home.scs",
+				"fibhub-webapp\\src\\pages\\home\\Home.scss"
+			],
+			[
+				"Footer.js",
+				"fibhub-webapp\\src\\components\\footer\\Footer.js"
+			],
+			[
+				"Draft.js",
+				"fibhub-backend\\api\\controllers\\draft\\Draft.js"
+			],
+			[
+				"NewStory",
+				"fibhub-webapp\\src\\server\\routes\\NewStoryRoute.js"
+			],
+			[
+				"SaveD",
+				"fibhub-webapp\\src\\server\\routes\\SaveDraftRoute.js"
+			],
+			[
+				"utils/response/",
+				"fibhub-backend\\api\\utils\\response\\Errors.js"
+			],
+			[
+				"",
+				"fibhub-webapp\\src\\server\\routes\\CreateDraftRoute.js"
+			],
+			[
+				"MyPro",
+				"fibhub-webapp\\src\\components\\context\\MyProvider.js"
+			],
+			[
+				"contro/Register.js",
+				"fibhub-backend\\api\\controllers\\auth\\Register.js"
+			],
+			[
+				"SaveDra",
+				"fibhub-webapp\\src\\server\\routes\\SaveDraftRoute.js"
+			],
+			[
+				"NewDra",
+				"fibhub-backend\\api\\controllers\\draft\\NewDraft.js"
+			],
+			[
+				"SaveDraftR",
+				"fibhub-webapp\\src\\server\\routes\\SaveDraftRoute.js"
+			],
+			[
+				"NewSto",
+				"fibhub-webapp\\src\\server\\routes\\NewStoryRoute.js"
+			],
+			[
+				"CreateDra",
+				"fibhub-webapp\\src\\server\\routes\\CreateDraftRoute.js"
+			],
+			[
+				"Server.js",
+				"fibhub-webapp\\src\\server\\Server.js"
+			],
+			[
+				"New.scss",
+				"fibhub-webapp\\src\\pages\\new\\New.scss"
+			],
+			[
+				"SearchBar",
+				"fibhub-webapp\\src\\components\\toolbar\\SearchBar.scss"
+			],
+			[
+				"App.scss",
+				"fibhub-webapp\\src\\App.scss"
+			],
+			[
+				"Editor.scs",
+				"fibhub-webapp\\src\\components\\editor\\Editor.scss"
+			],
+			[
+				"FibModal",
+				"fibhub-webapp\\src\\pages\\story\\FibModal.js"
+			],
+			[
+				"varia",
+				"fibhub-webapp\\src\\utils\\css\\variable.scss"
+			],
+			[
+				"val",
+				"fibhub-backend\\api\\utils\\Validator.js"
+			],
+			[
+				"FibMoal",
+				"fibhub-webapp\\src\\pages\\story\\FibModal.scss"
+			],
+			[
+				"Fibmo",
+				"fibhub-webapp\\src\\pages\\story\\FibModal.scss"
+			],
+			[
+				"Editor.s",
+				"fibhub-webapp\\src\\components\\editor\\Editor.scss"
+			],
+			[
+				"StoryRead.",
+				"fibhub-webapp\\src\\pages\\story\\StoryRead.scss"
+			],
+			[
+				"Btn.scs",
+				"fibhub-webapp\\src\\components\\buttons\\Btn.scss"
+			],
+			[
+				"Btn.js",
+				"fibhub-webapp\\src\\components\\buttons\\Btn.js"
+			],
+			[
+				"StoryRea",
+				"fibhub-webapp\\src\\pages\\story\\StoryRead.js"
+			],
+			[
+				"EditTe",
+				"fibhub-webapp\\src\\components\\edittext\\EditText.scss"
+			],
+			[
+				"icons.",
+				"fibhub-webapp\\src\\assets\\font\\icons.css"
+			],
+			[
+				"EditTex",
+				"fibhub-webapp\\src\\components\\edittext\\EditText.js"
+			],
+			[
+				"WritersTab",
+				"fibhub-webapp\\src\\pages\\search\\WritersTab.js"
+			],
+			[
+				"Search",
+				"fibhub-webapp\\src\\pages\\search\\Search.js"
+			],
+			[
+				"Tags.js",
+				"fibhub-webapp\\src\\components\\tags\\Tags.js"
+			],
+			[
+				"Tags.scss",
+				"fibhub-webapp\\src\\components\\tags\\Tags.scss"
+			],
+			[
+				"Check",
+				"fibhub-webapp\\src\\components\\checkbox\\Checkbox.scss"
+			],
+			[
+				"Checkbox.js",
+				"fibhub-webapp\\src\\components\\checkbox\\Checkbox.js"
+			],
+			[
+				"Settings.js",
+				"fibhub-webapp\\src\\pages\\settings\\Settings.js"
+			],
+			[
+				"MyProvider",
+				"fibhub-webapp\\src\\components\\context\\MyProvider.js"
+			],
+			[
+				"Catchup",
+				"fibhub-backend\\api\\controllers\\Catchup.js"
+			],
+			[
+				"App.scs",
+				"fibhub-webapp\\src\\App.scss"
+			],
+			[
+				"App.js",
+				"fibhub-webapp\\src\\App.js"
+			],
+			[
+				"Btn.sc",
+				"fibhub-webapp\\src\\components\\buttons\\Btn.scss"
+			],
+			[
+				"Events.scs",
+				"fibhub-webapp\\src\\components\\toolbar\\Events.scss"
+			],
+			[
+				"Events.js",
+				"fibhub-webapp\\src\\components\\toolbar\\Events.js"
+			],
+			[
+				"Trending.js",
+				"fibhub-backend\\api\\controllers\\Trending.js"
+			],
+			[
+				"Downvote",
+				"fibhub-backend\\api\\controllers\\story\\DownvoteStory.js"
+			],
+			[
+				"DownvoteFi",
+				"fibhub-backend\\api\\controllers\\fib\\DownvoteFib.js"
+			],
+			[
+				"Help",
+				"fibhub-webapp\\src\\pages\\about\\Help.js"
+			],
+			[
+				"Toolbar.sc",
+				"fibhub-webapp\\src\\components\\toolbar\\Toolbar.scss"
+			],
+			[
+				"Toolbar.js",
+				"fibhub-webapp\\src\\components\\toolbar\\Toolbar.js"
+			],
+			[
+				"constants.js",
+				"fibhub-backend\\api\\utils\\Constants.json"
+			],
+			[
+				"Read.js",
+				"fibhub-backend\\api\\controllers\\story\\Read.js"
+			],
+			[
+				"Home.js",
+				"fibhub-webapp\\src\\pages\\home\\Home.js"
+			],
+			[
+				"StoryRead",
+				"fibhub-webapp\\src\\pages\\story\\StoryRead.js"
+			],
+			[
+				"Writer.js",
+				"fibhub-webapp\\src\\pages\\writer\\Writer.js"
+			],
+			[
+				"variable",
+				"fibhub-webapp\\src\\utils\\css\\variable.scss"
+			],
+			[
+				"Auth.sc",
+				"fibhub-webapp\\src\\pages\\auth\\Auth.scss"
+			],
+			[
+				"Register.js",
+				"fibhub-webapp\\src\\pages\\auth\\Register.js"
+			],
+			[
+				"Login.js",
+				"fibhub-webapp\\src\\pages\\auth\\Login.js"
+			],
+			[
+				"Jum",
+				"fibhub-webapp\\src\\components\\jumbotron\\Jumbotron.scss"
+			],
+			[
+				"Jumbo",
+				"fibhub-webapp\\src\\components\\jumbotron\\Jumbotron.js"
+			],
+			[
+				"Jumbot",
+				"fibhub-backend\\api\\controllers\\Jumbotron.js"
+			],
+			[
+				"vari",
+				"fibhub-webapp\\src\\utils\\css\\variable.scss"
+			],
+			[
+				"Events.scss",
+				"fibhub-webapp\\src\\components\\toolbar\\Events.scss"
+			],
+			[
+				"/toolbar/Event",
+				"fibhub-webapp\\src\\components\\toolbar\\Events.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 244.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

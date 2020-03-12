@@ -1,0 +1,22 @@
+{
+  "name": "makerlog-extension",
+  "version": "1.0.0",
+  "description": "Makerlog chrome extension",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zicsus/makerlog-extension.git"
+  },
+  "author": "Himanshu Mishra <zicsus@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zicsus/makerlog-extension/issues"
+  },
+  "homepage": "https://github.com/zicsus/makerlog-extension#readme",
+  "dependencies": {
+    "terser": "^4.6.6"
+  }
+}
