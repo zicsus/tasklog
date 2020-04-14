@@ -2,7 +2,6 @@
 
 const Utils = (function ()
 {
-
 	function sendMessage(action, message, tabId)
 	{
 		if (!message)

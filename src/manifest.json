@@ -22,6 +22,7 @@
 		"activeTab",
 		"tabs",
 		"contextMenus",
+		"notifications",
 		"storage"
 	],
 
@@ -33,6 +34,8 @@
 
 	"background": {
 		"scripts": [
+			"background/utils.js",
+			"background/api.js",
 			"background/manager.js",
 			"background/bg.js"
 		]

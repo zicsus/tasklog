@@ -4,12 +4,36 @@
 		"selected_items":
 		[
 			[
-				"getCLine",
-				"getBoundingClientRect\tmethod"
+				"box-s",
+				"box-shadow\tproperty"
+			],
+			[
+				"attach",
+				"attachment\tconst"
+			],
+			[
+				"add",
+				"addEventListener\tmethod"
+			],
+			[
+				"atta",
+				"attachmentBtn\tconst"
+			],
+			[
+				"do",
+				"document\tvar"
 			],
 			[
 				"margin",
 				"margin-top\tproperty"
+			],
+			[
+				"quer",
+				"querySelector\tmethod"
+			],
+			[
+				"getCLine",
+				"getBoundingClientRect\tmethod"
 			],
 			[
 				"currentEl",
@@ -420,10 +444,6 @@
 				"tab_id\tlocal var"
 			],
 			[
-				"attach",
-				"attachedTabs\tconst"
-			],
-			[
 				"border-bot",
 				"border-bottom-left-radius\tproperty"
 			],
@@ -494,63 +514,16 @@
 			[
 				"expire",
 				"expires_in\twarning"
-			],
-			[
-				"auth",
-				"authorizeUrl\tlet"
-			],
-			[
-				"OA",
-				"OAuth2Provider\tscript"
-			],
-			[
-				"impor",
-				"important"
-			],
-			[
-				"co",
-				"contributors\tdirectory"
-			],
-			[
-				"pu",
-				"publishBtnText\twarning"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "src/manifest.json",
-			"settings":
-			{
-				"buffer_size": 690,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/background/bg.js",
-			"settings":
-			{
-				"buffer_size": 421,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/background/manager.js",
-			"settings":
-			{
-				"buffer_size": 334,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "src/popup/popup.html",
 			"settings":
 			{
-				"buffer_size": 153,
+				"buffer_size": 8164,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -559,16 +532,33 @@
 			"file": "src/popup/popup.js",
 			"settings":
 			{
-				"buffer_size": 425,
+				"buffer_size": 4187,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/auth/auth.html",
+			"file": "src/background/api.js",
 			"settings":
 			{
-				"buffer_size": 1267,
+				"buffer_size": 2537,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/G/Makerdash/makerdash1/src/pages/makerlog/new_task/NewTask.js",
+			"settings":
+			{
+				"buffer_size": 3988,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/background/bg.js",
+			"settings":
+			{
+				"buffer_size": 1084,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -577,25 +567,16 @@
 			"file": "src/auth/auth.js",
 			"settings":
 			{
-				"buffer_size": 14,
+				"buffer_size": 1455,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/css/base.css",
+			"file": "src/auth/auth.html",
 			"settings":
 			{
-				"buffer_size": 2126,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/G/hoverify/hoverify/src/license/license.html",
-			"settings":
-			{
-				"buffer_size": 4220,
+				"buffer_size": 1264,
 				"line_ending": "Windows"
 			}
 		}
@@ -612,12 +593,12 @@
 		"selected_items":
 		[
 			[
-				"javasc",
-				"Set Syntax: JavaScript"
-			],
-			[
 				"react",
 				"Set Syntax: TypeScriptReact"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
 			],
 			[
 				"packa",
@@ -757,18 +738,42 @@
 	},
 	"expanded_folders":
 	[
-		"/G/makerlog-extension",
-		"/G/makerlog-extension/src"
+		"/G/makerlog-extension"
 	],
 	"file_history":
 	[
-		"/G/hoverify/hoverify/src/license/license.css",
-		"/G/hoverify/hoverify/src/background/manager.js",
-		"/G/makerlog-extension/src/background/manager.js",
-		"/G/hoverify/hoverify/src/popup/popup.js",
-		"/G/makerlog-extension/src/popup/popup.html",
-		"/G/hoverify/hoverify/src/background/bg.js",
+		"/G/Makerdash/makerdash1/src/controllers/makerlog/MakerlogApi.js",
+		"/G/hoverify/hoverify-landing/public/index.html",
+		"/G/Clients/Happy Pregnancy/vendor/src/components/TagsInput/TagsInput.js",
+		"/G/hoverify/hoverify-landing/public/css/main.css",
+		"/G/makerlog-extension/src/manifest.json",
+		"/G/makerlog-extension/src/background/api.js",
+		"/G/Makerdash/makerdash/src/pages/makerlog/Makerlog.js",
+		"/G/Makerdash/makerdash/src/pages/makerlog/controller/MakerlogController.js",
+		"/G/Makerdash/makerdash1/src/pages/makerlog/new_task/NewTask.js",
 		"/G/makerlog-extension/src/background/utils.js",
+		"/G/makerlog-extension/src/background/bg.js",
+		"/G/makerlog-extension/src/css/base.css",
+		"/G/Makerdash/makerdash1/src/pages/makerlog/context/MakerlogProvider.js",
+		"/C/Users/Himanshu mishra/Desktop/plus-circle-solid.svg",
+		"/C/Users/Himanshu mishra/Desktop/camera-retro-solid.svg",
+		"/C/Users/Himanshu mishra/Desktop/bed-solid.svg",
+		"/C/Users/Himanshu mishra/Desktop/trophy-solid.svg",
+		"/C/Users/Himanshu mishra/Desktop/fire-solid.svg",
+		"/C/Users/Himanshu mishra/Desktop/sign-language-solid.svg",
+		"/G/Makerdash/makerdash1/src/pages/makerlog/user/UserCard.js",
+		"/G/makerlog-extension/src/popup/popup.html",
+		"/G/makerlog-extension/src/auth/auth.js",
+		"/G/hoverify/hoverify/src/background/bg_screenshot.js",
+		"/G/makerlog-extension/src/background/manager.js",
+		"/G/makerlog-extension/src/auth/auth.html",
+		"/G/hoverify/hoverify/src/background/manager.js",
+		"/G/hoverify/hoverify/src/license/license.js",
+		"/G/hoverify/hoverify/src/license/license.html",
+		"/G/Makerdash/makerdash/app.js",
+		"/G/hoverify/hoverify/src/license/license.css",
+		"/G/hoverify/hoverify/src/popup/popup.js",
+		"/G/hoverify/hoverify/src/background/bg.js",
 		"/G/hoverify/hoverify/src/background/utils.js",
 		"/G/makerlog-extension/index.js",
 		"/G/hoverify/hoverify/package.json",
@@ -790,7 +795,6 @@
 		"/G/hoverify/builds/manifest.json",
 		"/G/hoverify/hoverify/build/manifest.json",
 		"/G/hoverify/hoverify/src/content_scripts/inspect.js",
-		"/G/hoverify/hoverify/src/background/bg_screenshot.js",
 		"/G/hoverify/hoverify/src/content_scripts/svg.js",
 		"/G/hoverify/hoverify/build/background/bg_colorpicker.js",
 		"/G/hoverify/hoverify/build/background/bg.js",
@@ -798,15 +802,12 @@
 		"/G/hoverify/svg/info-circle-solid.svg",
 		"/G/hoverify/svg/copy-regular.svg",
 		"/G/hoverify/hoverify/build/capture/capture.js",
-		"/G/hoverify/hoverify/src/license/license.html",
 		"/G/hoverify/svg/twitter-brands.svg",
 		"/G/hoverify/svg/envelope-open-solid.svg",
 		"/G/hoverify/svg/link-solid.svg",
-		"/G/hoverify/hoverify-landing/public/index.html",
 		"/G/hoverify/hoverify/src/settings/settings.js",
 		"/G/hoverify/hoverify/src/settings/settings.html",
 		"/G/hoverify/hoverify/src/settings/settings.css",
-		"/G/hoverify/hoverify/src/license/license.js",
 		"/G/hoverify/hoverifyOld/src/background/license.js",
 		"/G/hoverify/hoverifyOld/src/license.html",
 		"/G/hoverify/hoverifyOld/src/license.js",
@@ -868,28 +869,7 @@
 		"/G/hoverify/svg/crop.svg",
 		"/G/hoverify/hoverifyOld/src/manifest.json",
 		"/G/hoverify/hoverify/src/content-scripts/state.js",
-		"/G/hoverify/hoverify/src/content-scripts/inspect.js",
-		"/G/hoverify/hoverify/src/content-scripts/index.js",
-		"/G/hoverify/hoverify/src/content-scripts/hoverify.js",
-		"/G/hoverify/hoverify/src/content-scripts/color_picker.js",
-		"/G/hoverify/hoverify/src/content-scripts/fonts.js",
-		"/C/Users/Himanshu mishra/Downloads/20033585401553667173.svg",
-		"/G/hoverify/hoverify/src/content-scripts/utils.js",
-		"/G/hoverify/hoverify/src/license.js",
-		"/G/hoverify/hoverify/src/content-scripts/hoverify.css",
-		"/G/hoverify/hoverify/src/background/license.js",
-		"/G/hoverify/hoverify/src/css/icons.css",
-		"/G/hoverify/hoverify/build/content-scripts/fonts.js",
-		"/G/hoverify/hoverify/build/content-scripts/inspect.js",
-		"/G/hoverify/hoverify/build/capture.js",
-		"/G/hoverify/hoverify/build/popups/main.js",
-		"/G/hoverify/hoverify/build/content-scripts/screenshot.js",
-		"/G/hoverify/hoverify/build/license.js",
-		"/C/Users/Himanshu mishra/Desktop/New Microsoft Word Document.docx",
-		"/G/hoverify/hoverify/node_modules/chance/test/test.address.js",
-		"/G/hoverify/hoverify/node_modules/babel-runtime/helpers/slicedToArrayLoose.js",
-		"/G/hoverify/hoverify/src/license.html",
-		"/G/hoverify/hoverify/src/css/fontello.css"
+		"/G/hoverify/hoverify/src/content-scripts/inspect.js"
 	],
 	"find":
 	{
@@ -907,6 +887,12 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"loginBtn",
+			"260px",
+			"240px",
+			"password",
+			"login",
+			"username",
 			"sendMessage",
 			"setMessage"
 		],
@@ -916,6 +902,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"submitBtn",
+			"passwordInput",
+			"loginBtn",
+			"usernameInput"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -926,29 +916,29 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/manifest.json",
+					"file": "src/popup/popup.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 690,
+						"buffer_size": 8164,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								432,
-								432
+								5005,
+								5008
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false,
 							"typescript_plugin_format_options":
 							{
@@ -958,57 +948,27 @@
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 152.0,
+						"translation.y": 1962.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "src/background/bg.js",
+					"file": "src/popup/popup.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 421,
+						"buffer_size": 4187,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								326,
-								326
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false,
-							"use_tab_stops": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 57.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/background/manager.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 334,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								271,
-								271
+								3558,
+								3558
 							]
 						],
 						"settings":
@@ -1024,55 +984,27 @@
 							"use_tab_stops": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1242.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "src/popup/popup.html",
+					"buffer": 2,
+					"file": "src/background/api.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 153,
+						"buffer_size": 2537,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								67,
-								67
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "src/popup/popup.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 425,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								304,
-								304
+								90,
+								90
 							]
 						],
 						"settings":
@@ -1085,52 +1017,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "src/auth/auth.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1267,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								176,
-								176
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "src/auth/auth.js",
+					"buffer": 3,
+					"file": "/G/Makerdash/makerdash1/src/pages/makerlog/new_task/NewTask.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14,
+						"buffer_size": 3988,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								14,
-								14
+								2731,
+								2736
 							]
 						],
 						"settings":
@@ -1139,62 +1043,93 @@
 							"use_tab_stops": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "src/css/base.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2126,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								130,
-								130
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"typescript_plugin_format_options":
-							{
-								"convertTabsToSpaces": false,
-								"indentSize": 4,
-								"tabSize": 4
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2646.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "/G/hoverify/hoverify/src/license/license.html",
+					"buffer": 4,
+					"file": "src/background/bg.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4220,
+						"buffer_size": 1084,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								568,
-								432
+								742,
+								742
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 378.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/auth/auth.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1455,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								378,
+								378
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/auth/auth.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1264,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								625,
+								625
 							]
 						],
 						"settings":
@@ -1203,10 +1138,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 114.0,
+						"translation.y": 162.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -1255,7 +1190,7 @@
 	"project": "makerlog-extension.sublime-project",
 	"replace":
 	{
-		"height": 58.0
+		"height": 94.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1805,7 +1740,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 244.0,
+	"side_bar_width": 216.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
