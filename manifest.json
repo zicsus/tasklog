@@ -34,10 +34,10 @@
 
 	"background": {
 		"scripts": [
-			"background/utils.js",
-			"background/api.js",
-			"background/manager.js",
-			"background/bg.js"
+			"./src/background/utils.js",
+			"./src/background/api.js",
+			"./src/background/manager.js",
+			"./src/background/bg.js"
 		]
 	}
 }
