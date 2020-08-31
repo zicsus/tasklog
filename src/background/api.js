@@ -11,12 +11,18 @@ const Api = (function ()
 		user = result.user;
 	});
 
+	function setToken(ml_token)
+	{
+		token = ml_token;
+		chrome.storage.sync.set({ ml_token }, () => 
+		{
+			console.log("Login successfull!");
+		});
+	}
+
 	function getProfile(callback)
 	{
-		if (user)
-		{
-			callback(null, user);
-		}
+		if (user) callback(null, user);
 
 		fetch(`${baseUrl}/me/`,
 		{
@@ -28,7 +34,7 @@ const Api = (function ()
 	    })
 		.then(res => res.json())
 		.then((userData) => 
-		{ 
+		{
 			getStats(userData.username, (err, statsData) => 
 			{
 				if (err)
@@ -120,6 +126,7 @@ const Api = (function ()
 
 	return {
 		getProfile,
+		setToken,
 		newTask
 	}
 

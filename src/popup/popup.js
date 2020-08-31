@@ -2,10 +2,10 @@
 
 const state = {
 	token: "",
-	tabId: null
+	user: null
 };
 	
-chrome.storage.sync.get(['ml_token', 'user'], (result) => 
+chrome.storage.sync.get(['ml_token'], (result) => 
 {
 	state.token = result.ml_token;	
 });
@@ -15,6 +15,19 @@ const attachmentInput = document.getElementById('attachment_input');
 const attachment = document.getElementById('attachment');
 const contentInput = document.getElementById('content');
 const submitBtn = document.getElementById('submit');
+const logoutBtn = document.getElementById('logout');
+
+document.getElementById("name").addEventListener("click", () => sendMessage("Tab.open", { url: `https://getmakerlog.com/@${state.user.username}` }));
+document.querySelector("#discuss").addEventListener("click", () => sendMessage("Tab.open", { url: "https://getmakerlog.com/discussions" }));
+document.querySelector("#stories").addEventListener("click", () => sendMessage("Tab.open", { url: "https://getmakerlog.com/stories" }));
+document.querySelector("#explore").addEventListener("click", () => sendMessage("Tab.open", { url: "https://getmakerlog.com/" }));
+document.querySelector("#coffee").addEventListener("click", () => sendMessage("Tab.open", { url: "https://www.buymeacoffee.com/zicsus" }));
+
+logoutBtn.addEventListener("click", () => 
+{
+	sendMessage("Manager.logout", {});
+	window.close();
+});
 
 attachmentBtn.addEventListener('click', (e) => 
 {
@@ -34,32 +47,30 @@ attachmentInput.addEventListener('change', (e) =>
 			{
 			    const main = document.querySelector(".main");
 			    const height = attachment.clientHeight;
-			    main.setAttribute("style",`height:${240 + height}px`);
+			    main.setAttribute("style",`height:${270 + height}px`);
 	    	}, 100);
 		};
 		reader.readAsDataURL(attachmentInput.files[0]);
 	}
-})
+});
 
 function sendMessage(action, message)
 {
-	if(!message)
-		message = {}
-
-	message.tabId = state.tabId;
+	if(!message) message = {}
 	message.action = action;
 	chrome.runtime.sendMessage(message);
 }
 
 function setProfile(err, data)
 {
+	state.user = data;
 	document.getElementById("header").src = data.header; 
 	document.getElementById("avatar").src = data.avatar; 
-	document.getElementById("name").innerHTML = data.name; 
+	document.querySelector("#name h1").innerHTML = data.name; 
 	document.getElementById("streak").innerHTML = data.streak; 
 	document.getElementById("score").innerHTML = data.maker_score; 
 	document.getElementById("claps").innerHTML = data.praise_received; 
-	document.getElementById("rest_days").innerHTML = data.rest_day_balance; 
+	document.getElementById("rest_days").innerHTML = data.rest_day_balance;
 }
 
 function isLoading(status)
@@ -184,16 +195,7 @@ chrome.runtime.onMessage.addListener((message, sender, _) =>
 		{
 			setProfile(message.err, message.data);
 		} break;
-
-		case "Api.newTask.response": 
-		{
-			alert("done");
-		} break;
 	}
 });
 
-chrome.tabs.query({active: true, currentWindow: true}, (tabs) => 
-{
-	state.tabId = tabs[0].id;
-	sendMessage("Auth.check");
-});
+sendMessage("Auth.check");

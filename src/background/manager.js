@@ -2,18 +2,9 @@
 
 const Manager = (function ()
 {
-
-	function setToken(ml_token)
-	{
-		chrome.storage.sync.set({ ml_token }, () => 
-		{
-			console.log("Login successfull!");
-		});
-	}
-
 	function checkAuth(callback)
 	{
-		chrome.storage.sync.get(['ml_token'], (result) => 
+		chrome.storage.sync.get(["ml_token"], (result) => 
 		{
 			const token = result.ml_token;
 			
@@ -26,8 +17,14 @@ const Manager = (function ()
 		});
 	}
 
+	function logout()
+	{
+		chrome.storage.sync.remove("ml_token");
+		chrome.storage.sync.remove("user");
+	}
+
 	return {
 		checkAuth,
-		setToken
+		logout
 	};
 })();

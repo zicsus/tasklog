@@ -94,6 +94,10 @@ button span {
 	margin: 0;
 }
 
+.space {
+	flex: 1;
+}
+
 /*
 	Loader
 */

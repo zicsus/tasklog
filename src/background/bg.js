@@ -6,10 +6,7 @@ function handleContentScript(sender, message)
 	{
 		case "Auth.set":
 		{
-			if (sender.url === chrome.runtime.getURL('/auth/auth.html'))
-			{
-				Manager.setToken(message.token);
-			}
+			Api.setToken(message.token);
 		} break;
 	}
 }
@@ -44,6 +41,17 @@ function handleMessage(message)
 			{
 				Utils.sendMessage("Api.newTask.response", { err, data });
 			});
+		} break;
+
+		case "Manager.logout": 
+		{
+			Manager.logout();
+		} break;
+
+		case "Tab.open":
+		{
+			console.log(message.url);
+			chrome.tabs.create({ url: message.url });
 		} break;
 	}
 }

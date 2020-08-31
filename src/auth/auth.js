@@ -21,7 +21,17 @@ function isLoading(status)
 	}
 }
 
-loginBtn.addEventListener('click', () => 
+loginBtn.addEventListener('click', login);
+passwordInput.addEventListener("keypress", (e) => 
+{
+	if (e.key === "Enter" || e.keyCode === 32)
+	{
+		login();
+	}
+});
+
+
+function login()
 {
 	if (!loginBtn.loading)
 	{
@@ -30,12 +40,12 @@ loginBtn.addEventListener('click', () =>
 		if(username && password)
 		{
 			isLoading(true);
-			login(username, password);
+			sendRequest(username, password);
 		}
 	}
-});
+}
 
-function login(username, password)
+function sendRequest(username, password)
 {
 	fetch('https://api.getmakerlog.com/api-token-auth/',
 	{
@@ -69,5 +79,6 @@ function login(username, password)
 	{
 		console.log(err);
 		isLoading(false);
+		alert(err.message);
 	});
 }
