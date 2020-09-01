@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "Tasklog for Makerlog",
 	"description": "Log tasks on Makerlog from anywhere.",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"author": "Himanshu Mishra <zicsus@gmail.com>",
 
 	"icons": { 
