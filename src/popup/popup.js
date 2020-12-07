@@ -67,8 +67,7 @@ function setProfile(err, data)
 	document.getElementById("header").src = data.header; 
 	document.getElementById("avatar").src = data.avatar; 
 	document.querySelector("#name h1").innerHTML = data.name; 
-	document.getElementById("streak").innerHTML = data.streak; 
-	document.getElementById("score").innerHTML = data.maker_score; 
+	document.getElementById("streak").innerHTML = data.streak;
 	document.getElementById("claps").innerHTML = data.praise_received; 
 	document.getElementById("rest_days").innerHTML = data.rest_day_balance;
 }
