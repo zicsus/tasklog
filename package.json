@@ -1,22 +1,88 @@
 {
-  "name": "makerlog-extension",
-  "version": "1.0.0",
-  "description": "Makerlog chrome extension",
-  "main": "index.js",
-  "scripts": {
-    "build": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zicsus/makerlog-extension.git"
-  },
-  "author": "Himanshu Mishra <zicsus@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zicsus/makerlog-extension/issues"
-  },
-  "homepage": "https://github.com/zicsus/makerlog-extension#readme",
-  "dependencies": {
-    "terser": "^4.6.6"
-  }
+    "name": "tasklog",
+    "description": "Log task on Makerlog",
+    "version": "0.0.1",
+    "homepage": "https://github.com/zicsus/tasklog",
+    "author": "Himanshu Mishra <zicsus@gmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/zicsus/tasklog"
+    },
+    "scripts": {
+        "start": "xt-build -e dev -w",
+        "build": "xt-build -e prod",
+        "clean": "xt-clean",
+        "docs": "xt-docs",
+        "test": "xt-test",
+        "sync": "xt-sync --all"
+    },
+    "babel": {
+        "presets": [
+            "@babel/preset-env"
+        ]
+    },
+    "eslintIgnore": [
+        "test/**/*"
+    ],
+    "devDependencies": {
+        "extension-cli": "^0.11.8",
+        "webextension-polyfill": "^0.7.0"
+    },
+    "xtdocs": {
+        "source": {
+            "include": [
+                "README.md",
+                "src"
+            ]
+        },
+        "templates": {
+            "systemName": "Tasklog",
+            "systemSummary": "Log task on Makerlog",
+            "systemColor": "#4CAF50"
+        }
+    },
+    "xtbuild": {
+        "js_bundles": [
+            {
+                "name": "js/background",
+                "src": "./src/background/bg.js"
+            },
+            {
+                "name": "js/contentScript",
+                "src": "./src/contentScript/cs.js"
+            },
+            {
+                "name": "js/popup",
+                "src": "./src/popup/popup.js"
+            },
+            {
+                "name": "js/auth",
+                "src": "./src/auth/auth.js"
+            }
+        ],
+        "scss_bundles": [
+            {
+                "name": "popup",
+                "src": "./src/popup/popup.scss"
+            },
+            {
+                "name": "base",
+                "src": "./src/scss/base.scss"
+            },
+            {
+                "name": "auth",
+                "src": "./src/auth/auth.scss"
+            },
+            {
+                "name": "newTaskWindow",
+                "src": "./src/contentScript/newTaskWindow.scss"
+            }
+        ],
+        "copyAsIs": [
+            "./src/vendors/**/*"
+        ]
+    },
+    "dependencies": {
+        "axios": "^0.21.1"
+    }
 }

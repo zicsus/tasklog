@@ -1,0 +1,11 @@
+{
+    "appName": {
+        "message": "Tasklog"
+    },
+    "appShortName": {
+        "message": "Tasklog"
+    },
+    "appDescription": {
+        "message": "Log task on Makerlog"
+    }
+}

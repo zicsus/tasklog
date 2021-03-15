@@ -1,355 +1,87 @@
 <!DOCTYPE html>
 <html>
 	
-<head>
-	<title>Makerlog Extension</title>
-	<link rel="stylesheet" type="text/css" href="../css/base.css">
-</head>
+    <head>
+        <title>Tasklog</title>
+        <link rel="stylesheet" type="text/css" href="./css/base.css">
+        <link rel="stylesheet" type="text/css" href="./css/popup.css">
+    </head>
 
-<body>
+    <body>
+        <div class="main">
+            <div class="header">
+                <img id="header" />
+                <div class="overlay"></div>
+            </div>
 
-	<div class="main">
-			
-		<div class="header">
-			<img id="header" />
-			<div class="overlay"></div>
-		</div>
+            <div class="gradient"></div>
 
-		<div class="gradient"></div>
+            <div class="content">
+                <div class="profile">
+                    <img id="avatar"/>
+                    <div class="info">
+                        <div class="name" id="name">
+                            <h1></h1>
+                            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                        </div>
+                        <ul class="stats">
+                            <li>
+                                <svg style="color: #f12711;" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                    <path fill="currentColor" d="M216 23.86c0-23.8-30.65-32.77-44.15-13.04C48 191.85 224 200 224 288c0 35.63-29.11 64.46-64.85 63.99-35.17-.45-63.15-29.77-63.15-64.94v-85.51c0-21.7-26.47-32.23-41.43-16.5C27.8 213.16 0 261.33 0 320c0 105.87 86.13 192 192 192s192-86.13 192-192c0-170.29-168-193-168-296.14z"></path>
+                                </svg>
+                                <h4 id="streak">0</h4>
+                            </li>
 
-		<div class="content">
-			<div class="profile">
-				
-				<img id="avatar"/>
+                            <li>
+                                <svg style="color: #FFAFBD;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M91.434 483.987c-.307-16.018 13.109-29.129 29.13-29.129h62.293v-5.714H56.993c-16.021 0-29.437-13.111-29.13-29.129C28.16 404.491 40.835 392 56.428 392h126.429v-5.714H29.136c-16.021 0-29.437-13.111-29.13-29.129.297-15.522 12.973-28.013 28.566-28.013h154.286v-5.714H57.707c-16.021 0-29.437-13.111-29.13-29.129.297-15.522 12.973-28.013 28.566-28.013h168.566l-31.085-22.606c-12.762-9.281-15.583-27.149-6.302-39.912 9.281-12.761 27.15-15.582 39.912-6.302l123.361 89.715a34.287 34.287 0 0 1 14.12 27.728v141.136c0 15.91-10.946 29.73-26.433 33.374l-80.471 18.934a137.16 137.16 0 0 1-31.411 3.646H120c-15.593-.001-28.269-12.492-28.566-28.014zm73.249-225.701h36.423l-11.187-8.136c-18.579-13.511-20.313-40.887-3.17-56.536l-13.004-16.7c-9.843-12.641-28.43-15.171-40.88-5.088-12.065 9.771-14.133 27.447-4.553 39.75l36.371 46.71zm283.298-2.103l-5.003-152.452c-.518-15.771-13.722-28.136-29.493-27.619-15.773.518-28.137 13.722-27.619 29.493l1.262 38.415L283.565 11.019c-9.58-12.303-27.223-14.63-39.653-5.328-12.827 9.599-14.929 28.24-5.086 40.881l76.889 98.745-4.509 3.511-94.79-121.734c-9.58-12.303-27.223-14.63-39.653-5.328-12.827 9.599-14.929 28.24-5.086 40.881l94.443 121.288-4.509 3.511-77.675-99.754c-9.58-12.303-27.223-14.63-39.653-5.328-12.827 9.599-14.929 28.24-5.086 40.881l52.053 66.849c12.497-8.257 29.055-8.285 41.69.904l123.36 89.714c10.904 7.93 17.415 20.715 17.415 34.198v16.999l61.064-47.549a34.285 34.285 0 0 0 13.202-28.177z"></path></svg>
+                                <h4 id="claps">0</h4>
+                            </li>
 
-				<div class="info">
-					<div class="name" id="name">
-						<h1></h1>
-						<svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-					</div>
-					<ul class="stats">
-						<li>
-							<svg style="color: #f12711;" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-								<path fill="currentColor" d="M216 23.86c0-23.8-30.65-32.77-44.15-13.04C48 191.85 224 200 224 288c0 35.63-29.11 64.46-64.85 63.99-35.17-.45-63.15-29.77-63.15-64.94v-85.51c0-21.7-26.47-32.23-41.43-16.5C27.8 213.16 0 261.33 0 320c0 105.87 86.13 192 192 192s192-86.13 192-192c0-170.29-168-193-168-296.14z"></path>
-							</svg>
+                            <li>
+                                <svg style="color: #ffc3a0;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M176 256c44.11 0 80-35.89 80-80s-35.89-80-80-80-80 35.89-80 80 35.89 80 80 80zm352-128H304c-8.84 0-16 7.16-16 16v144H64V80c0-8.84-7.16-16-16-16H16C7.16 64 0 71.16 0 80v352c0 8.84 7.16 16 16 16h32c8.84 0 16-7.16 16-16v-48h512v48c0 8.84 7.16 16 16 16h32c8.84 0 16-7.16 16-16V240c0-61.86-50.14-112-112-112z"></path></svg>
+                                <h4 id="rest_days">0</h4>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="logout" id="logout"><span>Logout</span></button>
+                </div>
 
-							<h4 id="streak">0</h4>
-						</li>
+                <div class="add">
+                    <div class="task">
+                        <div class="action" id="choose_attachment">
+                            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                            <input accept="image/*" type="file" id="attachment_input"/>
+                        </div>
+                        <input type="text" placeholder="Start typing your task..." id="content" autocomplete="off"/>
+                        <div class="action" id="add_task">
+                            <div class="loader"><div></div><div></div><div></div><div></div></div>
+                            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                        </div>
+                    </div>
 
-						<li>
-							<svg style="color: #FFAFBD;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M91.434 483.987c-.307-16.018 13.109-29.129 29.13-29.129h62.293v-5.714H56.993c-16.021 0-29.437-13.111-29.13-29.129C28.16 404.491 40.835 392 56.428 392h126.429v-5.714H29.136c-16.021 0-29.437-13.111-29.13-29.129.297-15.522 12.973-28.013 28.566-28.013h154.286v-5.714H57.707c-16.021 0-29.437-13.111-29.13-29.129.297-15.522 12.973-28.013 28.566-28.013h168.566l-31.085-22.606c-12.762-9.281-15.583-27.149-6.302-39.912 9.281-12.761 27.15-15.582 39.912-6.302l123.361 89.715a34.287 34.287 0 0 1 14.12 27.728v141.136c0 15.91-10.946 29.73-26.433 33.374l-80.471 18.934a137.16 137.16 0 0 1-31.411 3.646H120c-15.593-.001-28.269-12.492-28.566-28.014zm73.249-225.701h36.423l-11.187-8.136c-18.579-13.511-20.313-40.887-3.17-56.536l-13.004-16.7c-9.843-12.641-28.43-15.171-40.88-5.088-12.065 9.771-14.133 27.447-4.553 39.75l36.371 46.71zm283.298-2.103l-5.003-152.452c-.518-15.771-13.722-28.136-29.493-27.619-15.773.518-28.137 13.722-27.619 29.493l1.262 38.415L283.565 11.019c-9.58-12.303-27.223-14.63-39.653-5.328-12.827 9.599-14.929 28.24-5.086 40.881l76.889 98.745-4.509 3.511-94.79-121.734c-9.58-12.303-27.223-14.63-39.653-5.328-12.827 9.599-14.929 28.24-5.086 40.881l94.443 121.288-4.509 3.511-77.675-99.754c-9.58-12.303-27.223-14.63-39.653-5.328-12.827 9.599-14.929 28.24-5.086 40.881l52.053 66.849c12.497-8.257 29.055-8.285 41.69.904l123.36 89.714c10.904 7.93 17.415 20.715 17.415 34.198v16.999l61.064-47.549a34.285 34.285 0 0 0 13.202-28.177z"></path></svg>
+                    <div class="image">
+                        <img id="attachment"/>
+                        <span id="attachment_remove">Remove</span>
+                    </div>
+                </div>
 
-							<h4 id="claps">0</h4>
-						</li>
-
-						<li>
-							<svg style="color: #ffc3a0;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M176 256c44.11 0 80-35.89 80-80s-35.89-80-80-80-80 35.89-80 80 35.89 80 80 80zm352-128H304c-8.84 0-16 7.16-16 16v144H64V80c0-8.84-7.16-16-16-16H16C7.16 64 0 71.16 0 80v352c0 8.84 7.16 16 16 16h32c8.84 0 16-7.16 16-16v-48h512v48c0 8.84 7.16 16 16 16h32c8.84 0 16-7.16 16-16V240c0-61.86-50.14-112-112-112z"></path></svg>
-
-							<h4 id="rest_days">0</h4>
-						</li>
-					</ul>
-				</div>
-
-				<button class="logout" id="logout"><span>Logout</span></button>
-
-			</div>
-
-			<div class="add">
-
-				<div class="task">
-					<input type="text" placeholder="Start typing your task..." id="content"/>
-					<div class="attachment" id="choose_attachment">
-						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M48 32C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48H48zm0 32h106c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H38c-3.3 0-6-2.7-6-6V80c0-8.8 7.2-16 16-16zm426 96H38c-3.3 0-6-2.7-6-6v-36c0-3.3 2.7-6 6-6h138l30.2-45.3c1.1-1.7 3-2.7 5-2.7H464c8.8 0 16 7.2 16 16v74c0 3.3-2.7 6-6 6zM256 424c-66.2 0-120-53.8-120-120s53.8-120 120-120 120 53.8 120 120-53.8 120-120 120zm0-208c-48.5 0-88 39.5-88 88s39.5 88 88 88 88-39.5 88-88-39.5-88-88-88zm-48 104c-8.8 0-16-7.2-16-16 0-35.3 28.7-64 64-64 8.8 0 16 7.2 16 16s-7.2 16-16 16c-17.6 0-32 14.4-32 32 0 8.8-7.2 16-16 16z"></path></svg>
-						<input accept="image/*" type="file" id="attachment_input"/>
-					</div>
-				</div>
-
-				<div class="image">
-					<img id="attachment"/>
-				</div>
-
-				<button id="submit">
-					<div class="loader"><div></div><div></div><div></div><div></div></div>
-
-					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm144 276c0 6.6-5.4 12-12 12h-92v92c0 6.6-5.4 12-12 12h-56c-6.6 0-12-5.4-12-12v-92h-92c-6.6 0-12-5.4-12-12v-56c0-6.6 5.4-12 12-12h92v-92c0-6.6 5.4-12 12-12h56c6.6 0 12 5.4 12 12v92h92c6.6 0 12 5.4 12 12v56z"></path></svg>
-
-					<span>Add task</span>
-				</button>
-
-			</div>
-
-			<div class="footer">
-				<ul>
-					<li id="discuss">
-						Discussions
-					</li>
-					<li id="stories">
-						Stories
-					</li>
-					<li id="explore">
-						Explore
-					</li>
-				</ul>
-				<div class="space"></div>
-				<ul>
-					<li id="coffee">
-						<svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
-
-						Buy me a coffee
-					</li>
-				</ul>
-			</div>
-
-		</div>	
-	</div>
-
-</body>
-
-<style>
-	
-	.main {
-		width: 560px;
-		height: 270px;
-		overflow: hidden;
-		position: relative;
-	}
-
-	.header {
-		position: relative;
-		width: 560px;
-		height: 560px;
-		overflow: hidden;
-	}
-
-	.header img {
-		position: absolute;
-		left: 50%;
-		top: 50%;
-		width: 100%;
-		height: 100%;
-		width: auto;
-		transform: translate(-50%,-50%);
-		filter: blur(5px);
-	}
-
-	.header .overlay {
-		position: absolute;
-		z-index: 5;
-		background: rgba(0, 0, 0, 0.2);
-		width: 100%;
-		height: 100%;
-		top: 0;
-		left: 0;
-	}
-
-	.gradient {
-		position: absolute;
-		z-index: 6;
-		background: linear-gradient(transparent, rgba(22, 23, 27, 0.8), rgba(22, 23, 27, 0.99));
-		width: 100%;
-		height: 100%;
-		bottom: 0;
-		z-index: 5;
-	}
-
-	.content {
-		position: absolute;
-		z-index: 10;
-		top: 1rem;
-		padding: 0rem 1rem;
-		width: 100%;
-	}
-
-	.profile {
-		width: 100%;
-		display: flex;
-		align-items: center;
-	}
-
-	.profile img {
-		width: 70px;
-		height: 70px;
-		border-radius: 50%;
-		padding: 2px;
-		box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-	}
-
-	.profile .info {
-		display: flex;
-		flex: 1;
-		flex-direction: column;
-		justify-content: center;
-		margin-left: 1rem;
-	}
-
-	.profile .info .name {
-		display: flex;
-		align-items: center;
-		cursor: pointer;
-	}
-
-	.profile .info .name h1 {
-		font: bold 22px Nunito;
-		color: #fff;
-	}
-
-	.profile .info .name svg {
-		width: 18px;
-		height: 18px;
-		color: #fff;
-		margin-left: 0.5rem;
-	}
-
-	.profile .info .stats {
-		list-style: none;
-		margin-top: 0.2rem;
-		display: flex;
-	}
-
-	.profile .info .stats li {
-		display: flex;
-		align-items: center;
-		color: #fff;
-		margin-right: 1rem;
-	}
-
-	.profile .info .stats li svg {
-		width: 20px;
-		height: 20px;
-	}
-
-	.profile .info .stats li h4 {
-		font: 700 16px Nunito;
-		margin-left: 0.5rem;
-	}
-
-	.task {
-		width: 100%;
-		display: flex;
-		align-items: center;
-		height: 50px;
-		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
-		border-radius: 0.4rem;
-		overflow: hidden;
-		margin-top: 1.5rem;
-		background: transparent;
-	}
-
-	.task input {
-		flex: 1;
-		height: 100%;
-		font-size: 18px;
-		padding: 1rem;
-		border: 0px;
-		font: 700 18px Nunito;
-		color: #16171b;
-		background: #fff;
-	}
-
-	.task .attachment {
-		width: 50px;
-		height: 50px;
-		color: #16171b;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
-		background: #fff;
-	}
-
-	.task .attachment input {
-		display: none;
-	}
-
-	.task .attachment svg {
-		width: 20px;
-		height: 20px;
-	}
-
-	.task .attachment:hover {
-		background: #481380;
-		color: #fff;
-		cursor: pointer;
-	}
-
-	.image img{
-		max-width: 100%;
-		max-height: 360px;
-		margin-top: 0.5rem;
-		border-radius: 0.4rem;
-		box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-	}
-
-	button {
-		width: 200px;
-		margin-top: 0.8rem;
-	}
-
-	button svg {
-		width: 20px;
-		height: 20px;
-		margin-right: 0.5rem;
-	}
-
-	.logout {
-		width: 80px;
-		height: 30px;
-		background: #d32f2f;
-	}
-
-	.logout span {
-		font-size: 14px;
-	}
-
-	.footer {
-		display: flex;
-		margin-top: 1rem;
-	}
-
-	.footer ul {
-		display: flex;
-		align-items: center;
-		list-style: none;
-		padding: 0px;
-	}
-
-	.footer ul li {
-		color: rgba(255, 255, 255, 0.6);
-		font: 600 14px Nunito;
-		margin-right: 0.5rem;
-		transition: color 0.2s ease-in-out;
-		display: flex;
-		align-items: center;
-	}
-
-	.footer ul li svg {
-		width: 16px;
-		height: 16px;
-		margin-right: 0.5rem;
-	}
-
-	.footer ul li:hover  {
-		color: #fff;
-		cursor: pointer;
-	}
-
-	.footer ul li:after {
-		content: '|';
-		margin-left: 0.4rem;
-		color: rgba(255, 255, 255, 0.6);
-	}
-
-	.footer ul li:last-child {
-		margin-right: 0rem;
-	}
-
-	.footer ul li:last-child:after {
-		content: '';
-		margin-right: 0rem;
-	}
-
-</style>
-
-<script type="text/javascript" src="popup.js"></script>
-
+                <div class="footer">
+                    <ul>
+                        <li id="discuss">
+                            Discussions
+                        </li>
+                        <li id="stories">
+                            Stories
+                        </li>
+                        <li id="explore">
+                            Explore
+                        </li>
+                    </ul>
+                    <div class="space"></div>
+                </div>
+            </div>	
+        </div>
+    </body>
+    <script type="text/javascript" src="./vendors/browser-polyfill.min.js"></script>
+    <script type="text/javascript" src="./js/popup.js"></script>
 </html>

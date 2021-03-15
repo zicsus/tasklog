@@ -1,0 +1,26 @@
+.box {
+    width: 400px;
+    margin: 10rem auto;
+    position: relative;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+    padding: 4rem 1.5rem 1.5rem 1.5rem;
+    border-radius: 0.3rem;
+
+    img {
+        width: 110px;
+        height: 110px;
+        position: absolute;
+        top: -60px;
+        left: calc(50% - 55px);
+        padding: 8px;
+        border-radius: 50%;
+    }
+
+    .message {
+        display: block;
+        margin-top: 1rem;
+        font: normal 14px Nunito;
+        color: #fff;
+    }
+}
+

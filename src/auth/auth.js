@@ -1,4 +1,5 @@
 'use strict';
+import sendMessage from '../utils/sendMessage';
 
 const usernameInput = document.getElementById('username');
 const passwordInput = document.getElementById('password');
@@ -24,12 +25,8 @@ function isLoading(status)
 loginBtn.addEventListener('click', login);
 passwordInput.addEventListener("keypress", (e) => 
 {
-	if (e.key === "Enter" || e.keyCode === 32)
-	{
-		login();
-	}
+	if (e.key === "Enter") login();
 });
-
 
 function login()
 {
@@ -40,45 +37,21 @@ function login()
 		if(username && password)
 		{
 			isLoading(true);
-			sendRequest(username, password);
+			sendMessage("Auth.login", {username, password});
 		}
 	}
 }
 
-function sendRequest(username, password)
+chrome.runtime.onMessage.addListener((message, sender, _) => 
 {
-	fetch('https://api.getmakerlog.com/api-token-auth/',
+	console.log(message);
+	switch (message.action)
 	{
-        method: "post",
-        headers: {
-            "content-type": "application/x-www-form-urlencoded"                
-        },
-        body: `username=${username}&password=${password}`
-    })
-	.then(res => res.json())
-	.then((data) => 
-	{ 
-		if (data.token)
-		{
-			const message = {
-				action: "Auth.set",
-				token: data.token
-			};
-			chrome.runtime.sendMessage(message);
-			window.close();
-		}
-		else
-		{
-			console.log(data);
-			alert("Please check your credentials!");
-		}
-
-		isLoading(false);
-	})
-	.catch(err => 
-	{
-		console.log(err);
-		isLoading(false);
-		alert(err.message);
-	});
-}
+		case "Auth.loginStatus": 
+        {
+            isLoading(false);
+            if (message.status) window.close();
+            else alert(message.err);
+        } break;
+	}
+});

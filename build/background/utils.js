@@ -1,1 +1,0 @@
-"use strict";const Utils={sendMessage:function(s,e,n){e||(e={}),e.action=s,n?chrome.tabs.sendMessage(n,e):chrome.runtime.sendMessage(e)}};

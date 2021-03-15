@@ -1,30 +1,27 @@
 'use strict';
 
-const Manager = (function ()
+async function checkAuth()
 {
-	function checkAuth(callback)
-	{
-		chrome.storage.sync.get(["ml_token"], (result) => 
-		{
-			const token = result.ml_token;
-			
-			if (!token)
-			{
-				chrome.tabs.create({url: chrome.runtime.getURL('auth/auth.html')});
-			}
+    try
+    {
+        const {token} = await browser.storage.local.get(["token"]);
+        if (!token) browser.tabs.create({url: browser.runtime.getURL('auth.html')});
+        return token ? true : false;
+    }
+    catch (err)
+    {
+        console.log(err);
+        throw err;
+    }
+}
 
-			callback(token);
-		});
-	}
+function logout()
+{
+    browser.storage.local.remove("token");
+    browser.storage.local.remove("user");
+}
 
-	function logout()
-	{
-		chrome.storage.sync.remove("ml_token");
-		chrome.storage.sync.remove("user");
-	}
-
-	return {
-		checkAuth,
-		logout
-	};
-})();
+export default {
+    checkAuth,
+    logout
+};
