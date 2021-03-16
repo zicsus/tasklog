@@ -46,8 +46,8 @@
     "commands": {
 		"toggle-window": {
 			"suggested_key": {
-				"default": "Alt+T",
-				"mac": "Alt+T"
+				"default": "Alt+P",
+				"mac": "Alt+P"
 			},
 			"description": "Toggle new task window."
 		}

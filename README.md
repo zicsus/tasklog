@@ -2,12 +2,11 @@
 
 Log task on Makerlog
 
-## Development 
-
-This extension was created with [Extension CLI](https://oss.mobilefirst.me/extension-cli/)!
-
-If you find this software helpful [star](https://github.com/MobileFirstLLC/extension-cli/) or [sponsor](https://github.com/sponsors/MobileFirstLLC) this project.
-
+### How to build
+Please make sure you have Node installed.
+1) Run `npm i` in source directory.
+2) For development run `npm run start`. This will build files in ./dist directory.
+3) For production run `npm run build`. This will generate release.zip with build files ready to publish.
 
 ### Available Commands
 
@@ -22,18 +21,3 @@ If you find this software helpful [star](https://github.com/MobileFirstLLC/exten
 
 For CLI instructions see [User Guide &rarr;](https://oss.mobilefirst.me/extension-cli/)
 
-### Learn More
-
-**Extension Developer guides**
-
-- [Getting started with extension development](https://developer.chrome.com/extensions/getstarted)
-- Manifest configuration: [version 2](https://developer.chrome.com/extensions/manifest) - [version 3](https://developer.chrome.com/docs/extensions/mv3/intro/)
-- [Permissions reference](https://developer.chrome.com/extensions/declare_permissions)
-- [Chrome API reference](https://developer.chrome.com/docs/extensions/reference/)
-
-**Extension Publishing Guides**
-
-- [Publishing for Chrome](https://developer.chrome.com/webstore/publish)
-- [Publishing for Edge](https://docs.microsoft.com/en-us/microsoft-edge/extensions-chromium/publish/publish-extension)
-- [Publishing for Opera addons](https://dev.opera.com/extensions/publishing-guidelines/)
-- [Publishing for Firefox](https://extensionworkshop.com/documentation/publish/submitting-an-add-on/)

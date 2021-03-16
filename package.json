@@ -1,7 +1,7 @@
 {
     "name": "tasklog",
     "description": "Log task on Makerlog",
-    "version": "0.0.1",
+    "version": "0.1.1",
     "homepage": "https://github.com/zicsus/tasklog",
     "author": "Himanshu Mishra <zicsus@gmail.com>",
     "repository": {

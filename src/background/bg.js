@@ -67,14 +67,21 @@ async function handleMessage(message)
 	}
 }
 
-function toggleTasklog()
+async function toggleTasklog()
 {
-	chrome.tabs.query({active: true, currentWindow: true}, async (tabs) => 
+	try
 	{
-		const tabId = tabs[0].id;
-		console.log(tabId);
-		sendMessage("Tasklog.toggle", {}, tabId);
-	});
+		const status = await Manager.checkAuth();
+		if (status)
+		{
+			chrome.tabs.query({active: true, currentWindow: true}, async (tabs) => 
+			{
+				const tabId = tabs[0].id;
+				sendMessage("Tasklog.toggle", {}, tabId);
+			});
+		}
+	}
+	catch (err){}
 }
 
 browser.runtime.onMessage.addListener((message, sender, sendMessage) => 
